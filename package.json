@@ -1,7 +1,7 @@
 {
-  "name": "titanbot",
+  "name": "nexbot-dc-v2",
   "version": "2.1.0",
-  "description": "Modular Ultimate Community Bot by Touchpoint Support",
+  "description": "NEXBOT — All-in-one Discord moderation and community bot",
   "main": "src/app.js",
   "type": "module",
   "scripts": {
