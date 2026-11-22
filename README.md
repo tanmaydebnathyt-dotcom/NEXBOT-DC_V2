@@ -1,6 +1,6 @@
-# TitanBot - Ultimate Discord Bot
+# NEXBOT — All-in-One Discord Bot
 
-**TitanBot** is a powerful, feature-rich Discord bot designed to enhance your server experience with comprehensive moderation tools, engaging economy systems, utility features, and much more. Built with modern Discord.js v14 and PostgreSQL for optimal performance and data persistence.
+**NEXBOT** is our all-in-one Discord bot designed to enhance your server experience with comprehensive moderation tools, engaging economy systems, utility features, and much more. Built with modern Discord.js v14 and PostgreSQL for optimal performance and data persistence.
 
 [![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/8kJBYhTGW9)
 [![Discord.js](https://img.shields.io/npm/v/discord.js?style=flat-square&labelColor=%23202225&color=%23202225&logo=npm&logoColor=white&logoWidth=20)](https://www.npmjs.com/package/discord.js)
@@ -18,7 +18,7 @@
 <a name="features-overview"></a>
 ## Features Overview
 
-TitanBot offers a complete suite of tools for Discord server management and community engagement:
+NEXBOT offers a complete suite of tools for Discord server management and community engagement:
 
 <table>
 <tr>
@@ -96,16 +96,16 @@ TitanBot offers a complete suite of tools for Discord server management and comm
 
 ### Video Tutorial
 For a detailed step-by-step setup guide, watch our comprehensive video tutorial:
-[**TitanBot Setup Tutorial**](https://www.youtube.com/@TouchDisc)
+[**Setup Tutorial**](https://www.youtube.com/@TouchDisc)
 
 ## Docker Deployment (Recommended)
 
-TitanBot is fully containerized for easy deployment.
+NEXBOT is fully containerized for easy deployment.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/codebymitch/TitanBot.git
-   cd TitanBot
+   git clone https://github.com/tanmaydebnathyt-dotcom/NEXBOT-DC_V2.git
+   cd NEXBOT-DC_V2
    ```
 
 2. **Configure environment variables:**
@@ -143,7 +143,9 @@ Music uses [Lavalink v4](https://github.com/lavalink-devs/Lavalink) via [Riffy](
 3. Override nodes inline with `LAVALINK_NODES` (JSON array) or point at another file with `LAVALINK_NODES_FILE`.
 4. Use `/play <song>` from a voice channel, or `/join` to connect without playing. Prefix shortcuts: `join`, `np`, `leave`, `pause`, `resume`, `skip`, `stop`, `volume <0-100>`, or `music <subcommand>`. Use `/nowplaying` and `/queue` for status; `/music` for loop, shuffle, seek, and other controls.
 
-### Using GitHub Container Registry
+### Upstream container image (optional reference)
+
+The following image is published by the original upstream TitanBot project, not by this NEXBOT repository.
 
 The bot is automatically published to GitHub Container Registry on every push to main.
 
@@ -161,8 +163,8 @@ docker pull ghcr.io/codebymitch/titanbot:main
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/codebymitch/TitanBot.git
-   cd TitanBot
+   git clone https://github.com/tanmaydebnathyt-dotcom/NEXBOT-DC_V2.git
+   cd NEXBOT-DC_V2
    ```
 
 2. **Install Dependencies**
@@ -194,7 +196,7 @@ docker pull ghcr.io/codebymitch/titanbot:main
    - `NODE_ENV=production`
    - `LOG_LEVEL=warn` for a clean production console (critical issues + startup status)
    - `LOG_LEVEL=info` if you want more detailed operational logs
-   - If your chosen `PORT` is already used, TitanBot automatically tries the next port(s)
+   - If your chosen `PORT` is already used, NEXBOT automatically tries the next port(s)
 
    Environment options reference:
    - `NODE_ENV`: `development`, `production`, `test` (any non-`production` value is treated as non-production)
@@ -249,7 +251,7 @@ Notes:
 <a name="bot-intents"></a>
 
 ## Required Bot Intents
-TitanBot requires the following Discord intents:
+NEXBOT requires the following Discord intents:
 - **Guilds**
 - **Guild Messages**
 - **Message Content**
@@ -277,10 +279,10 @@ TitanBot requires the following Discord intents:
 
 ## License
 
-TitanBot is released under the MIT License. See [LICENSE](LICENSE) for details.
+NEXBOT is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Thank You
 
-Thank you for choosing TitanBot for your Discord server! We're constantly working to improve and add new features based on community feedback.
+Thank you for choosing NEXBOT for your Discord server! We're constantly working to improve and add new features based on community feedback.
 
 *Last updated: May 2026*
